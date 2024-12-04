@@ -32,7 +32,7 @@ func main() {
 	scoreMap := make(map[int]int)
 
 	for i := 0; i < len(secondLine); i++ {
-		_, exists := scoreMap[secondLine[i]]
+		_ , exists := scoreMap[secondLine[i]]
 		if exists {
 			scoreMap[secondLine[i]] += 1
 		} else {
